@@ -3,9 +3,8 @@ import { ContactContainer } from '../style/Contact.style'
 
 function Contact() {
   return (<>
-    {/* <div>Contact</div> */}
     <ContactContainer>
-      <div>Contact</div>
+      <div><h1>Contact</h1></div>
       <div>dev.jh.joo@gmail.com</div>
     </ContactContainer>
     </>)

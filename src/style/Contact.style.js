@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContactContainer = styled.div`
     width: 100%;
     height: 50vh;
-    background-color: #D4F4FA;
+    background-color: #3A3A3A;
+    color: white;
     text-align: center;
 `

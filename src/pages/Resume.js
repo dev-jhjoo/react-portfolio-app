@@ -3,8 +3,9 @@ import { ResumeContainer } from '../style/Resume.style'
 
 function Resume() {
   return (<>
-    <div>Resume</div>
-    <ResumeContainer></ResumeContainer>
+    <ResumeContainer>
+      <h1>Resume</h1>
+    </ResumeContainer>
     </>)
 }
 

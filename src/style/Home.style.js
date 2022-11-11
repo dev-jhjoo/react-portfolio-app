@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
     width: 100%;
-    height: 50vh;
-    background-color: #FFE08C;
-    /* text-align: center; */
+    height: 60vh;
+    background-color: black;
+    color: white;
+    text-align: center;
 `
 
 export const EmptyDiv = styled.div`
     width: 100%;
-    height: 10vh;
-    background-color: white;
+    height: 5vh;
 `
