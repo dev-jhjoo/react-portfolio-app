@@ -3,7 +3,7 @@ import { CareerContainer } from '../style/Career.style'
 
 function Career() {
   return (<>
-    <CareerContainer>
+    <CareerContainer id="career-container">
       <h1>Career</h1>
     </CareerContainer>
   </>)

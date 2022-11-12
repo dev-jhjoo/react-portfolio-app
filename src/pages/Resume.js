@@ -3,7 +3,7 @@ import { ResumeContainer } from '../style/Resume.style'
 
 function Resume() {
   return (<>
-    <ResumeContainer>
+    <ResumeContainer id="resume-container">
       <h1>Resume</h1>
     </ResumeContainer>
     </>)

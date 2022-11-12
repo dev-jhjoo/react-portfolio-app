@@ -59,6 +59,7 @@ function Home(props) {
       <Image src={jira} style={{border:"1px solid", borderRadius:"5px" ,margin: "10px", backgroundColor:"#0052CC", width:"30px", height: "20px"}}></Image>jira
       <Image src={notion} style={{border:"1px solid", borderRadius:"5px" ,margin: "10px", backgroundColor:"white", width:"30px", height: "20px"}}></Image>notion
       </div>
+      etc...
     </HomeContainer>
   </>);
 }
