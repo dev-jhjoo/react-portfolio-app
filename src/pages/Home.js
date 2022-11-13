@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Image from 'react-bootstrap/Image';
-import myEmoji from '../images/IMG_0989.jpeg';
+import myEmoji from '../images/IMG_0989.jpg';
 
 import javascript from '../images/icon/javascript.svg';
 import nodejs from '../images/icon/nodedotjs.svg';

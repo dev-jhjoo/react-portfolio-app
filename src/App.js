@@ -1,6 +1,6 @@
 import './App.css';
 
-// import {Routes, Route} from 'react-router-dom'
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -28,11 +28,9 @@ function App() {
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto">
             <Nav.Link href="/" onClick={event => {scrollToSmooth(event, 0)}}>메인</Nav.Link>
-            <Nav.Link href="/resume" onClick={event => {
-                scrollToSmooth(event, document.querySelector('#resume-container').offsetTop)
-              }}>이력</Nav.Link>
-            <Nav.Link href="/career" onClick={event => {scrollToSmooth(event, 0)}}>경력</Nav.Link>
-            <Nav.Link href="/contact" onClick={event => {scrollToSmooth(event, 0)}}>연락</Nav.Link>
+            <Nav.Link href="/resume" onClick={event => {scrollToSmooth(event, document.querySelector('#resume-container').offsetTop)}}>이력</Nav.Link>
+            <Nav.Link href="/career" onClick={event => {scrollToSmooth(event, document.querySelector('#career-container').offsetTop)}}>경력</Nav.Link>
+            <Nav.Link href="/contact" onClick={event => {scrollToSmooth(event, document.querySelector('#contact-container').offsetTop)}}>연락</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
