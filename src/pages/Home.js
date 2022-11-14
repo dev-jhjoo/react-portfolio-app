@@ -31,8 +31,10 @@ function Home(props) {
         roundedCircle={true} 
         style={{width: "150px", height:"150px"}
       }/>
+
       <h3>결제 시스템 개발자</h3>
       <p>Payment Back-End Software Engineer</p>
+      
       <EmptyDiv></EmptyDiv>
       <div style={{width:"100%", height:"30px", fontSize:"20px"}}>
       - Skills -
